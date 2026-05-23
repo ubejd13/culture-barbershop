@@ -31,8 +31,8 @@ export default function Hero() {
           >
             <div className="relative overflow-hidden rounded-none lg:rounded-2xl">
               <img
-                src={BARBERSHOP_IMG}
-                alt="Ambari Barbershop Interior"
+                src="src/assets/img1.jpg"
+                alt="Culture Barbershop Interior"
                 className="w-full h-[55vh] lg:h-[80vh] object-cover"
                 style={{ filter: "brightness(0.92) contrast(1.05)" }}
               />
