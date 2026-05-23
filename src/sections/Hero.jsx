@@ -1,7 +1,6 @@
 import { motion } from "framer-motion";
 
-const BARBERSHOP_IMG = "src/assets/img1.jpg";
-
+import img1 from "../assets/img1.jpg";
 export default function Hero() {
   const scrollTo = (id) => {
     document.getElementById(id)?.scrollIntoView({ behavior: "smooth" });
@@ -31,7 +30,7 @@ export default function Hero() {
           >
             <div className="relative overflow-hidden rounded-none lg:rounded-2xl">
               <img
-                src="src/assets/img1.jpg"
+                src={img1}
                 alt="Culture Barbershop Interior"
                 className="w-full h-[55vh] lg:h-[80vh] object-cover"
                 style={{ filter: "brightness(0.92) contrast(1.05)" }}
