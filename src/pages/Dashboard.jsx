@@ -141,7 +141,7 @@ function LoginView() {
                 <Input
                   size="large"
                   prefix={<MailOutlined />}
-                  placeholder="admin@ambari.com"
+                  placeholder="Email"
                 />
               </Form.Item>
 
